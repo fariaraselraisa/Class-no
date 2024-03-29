@@ -1,0 +1,543 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+.body{
+width: 100%;
+min-height: 100vh;
+background-image: url(../img/22.png);
+
+background-position: center;
+background-size: cover;
+/* overflow: hidden; */
+
+}
+
+
+ ul {
+display: flex;
+
+justify-content: center;
+background-color: rgb(49, 49, 49);
+padding: 20px;
+gap: 1rem;
+
+
+
+
+}
+
+li{
+    list-style:none ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 40px;
+      background-color: rgb(131, 107, 77); 
+     
+}
+
+nav ul li a:hover{
+    background-color: blanchedalmond;
+    color: black;
+    border-radius: 40px;
+ background:blanchedalmond ;
+
+
+
+ /* box-shadow:      5px 5px 7px blanchedalmond,
+              -5px -5px 7px blanchedalmond; */
+ 
+}
+nav .parent{
+          position: relative;
+
+}
+
+nav .parent:hover .dropdown{
+    visibility: visible;
+    opacity: 1;
+    top: 38px;
+}
+
+
+.dropdown{
+    position: absolute;
+    top: 50px;
+    width: 200px;
+    height: 400px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: o.9s;
+
+
+}
+
+ .parent ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+}
+
+
+.dropdown li {
+    padding: 10px;
+    background-color: rgb(131, 107, 77);
+    color:white;
+
+}
+.dropdown li:hover{
+    background-color: blanchedalmond;
+    color: black; 
+}
+
+/* sub */
+
+ .sub{ 
+    position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd{
+    position: absolute;
+    
+    width: 200px;
+    height: 250px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub{ 
+  position: relative;
+
+}
+
+
+
+nav .sub:hover .subd{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* sub1 */
+ 
+
+.sub1{ 
+    position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd1{
+    position: absolute;
+    
+    width: 200px;
+    height: 290px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd1 li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd1 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub1{ 
+  position: relative;
+
+}
+
+
+
+nav .sub1:hover .subd1{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+/* sub2 */
+
+.sub2{ 
+    position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+    visibility: visible;
+    opacity: 1;
+   
+}
+
+
+
+
+.subd2{
+    position: absolute;
+    
+    width: 200px;
+    height: 340px;
+    background-color:rgb(49, 49, 49); 
+    visibility: hidden;
+    
+    opacity: 0;
+    transition: 1s;
+    margin-left: 150px;
+    
+}
+
+.sub2 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+
+.subd2 li {
+  padding: 10px;
+  background-color: rgb(131, 107, 77);
+  color:white;
+
+}
+.subd2 li:hover{
+  background-color: blanchedalmond;
+  color: black; 
+}
+
+.sub2{ 
+  position: relative;
+
+}
+
+
+
+nav .sub2:hover .subd2{
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+
+/* parent1 */
+
+nav .parent1{
+    position: relative;
+
+}
+
+nav .parent1:hover .dropdown1{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown1{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 300px;
+background-color:rgb(49, 49, 49); 
+visibility: hidden;
+
+opacity: 0;
+transition: o.99s;
+
+
+}
+
+.parent1 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown1 li {
+padding: 10px;
+background-color: rgb(131, 107, 77);
+color:white;
+
+}
+.dropdown1 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+/* parent2 */
+
+
+nav .parent2{
+    position: relative;
+
+}
+
+nav .parent2:hover .dropdown2{
+visibility: visible;
+opacity: 1;
+top: 38px;
+}
+
+
+.dropdown2{
+position: absolute;
+top: 50px;
+width: 200px;
+height: 200px;
+background-color:rgb(49, 49, 49); 
+visibility: hidden;
+
+opacity: 0.5;
+transition: o.9s;
+
+
+}
+
+.parent2 ul {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+
+}
+
+
+.dropdown2 li {
+padding: 10px;
+background-color: rgb(131, 107, 77);
+color:white;
+
+}
+.dropdown2 li:hover{
+background-color: blanchedalmond;
+color: black; 
+}
+
+  .card{
+   
+     position: relative; 
+   
+ }  
+
+ img{
+  
+
+    width: 400px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20%;
+   
+      
+} 
+
+
+
+ .card .i{
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: large; 
+   
+     padding: 30px;
+    color: aliceblue;
+    background-color: #634933;
+   
+    border-radius: 50%;
+    text-align: center;
+
+  
+} 
+
+  @keyframes frr{
+    0%{
+opacity: 0;
+ transform: scale(1); 
+
+    }
+    30%{
+opacity: o.4;
+ transform: scale(1.8); 
+
+    }
+    100%{
+opacity: 0;
+ transform: scale(1); 
+
+    }
+} 
+  
+
+
+ .card .i::before{
+    content: "";
+   
+height: 120px;
+width: 120px;
+
+     border-radius: 50%;
+    background-color: #ffffff;
+ animation: frr 2s infinite linear;
+
+ z-index: -1;
+  
+}  
+
+
+
+
+
+ .card .i i{
+    font-size: 20px;
+}
+
+nav i{
+    font-size:large ;
+    
+}
+.body{
+    display: flex;
+}
+
+.left{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+   
+    
+} 
+
+.h1{
+    padding-top: 120px;
+    padding-left: 70px;
+    color: rgb(222, 224, 226);
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+p{
+    padding-left: 70px;
+    color: rgb(198, 201, 204);
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.right .top{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+   
+
+}
+.right .down{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+  
+    padding-bottom: 10px;
+    padding-right: 30px;
+   
+} 
+
+
+
+.card{
+
+   
+border-radius: 20%;
+box-shadow:   5px 5px 10px #302f2e,
+             -5px -5px 10px #634933;
+             opacity: 1;
+}
+
+.card:hover{
+    opacity: 0.8;
+} 
+
+
+
